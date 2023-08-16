@@ -139,23 +139,16 @@ document.write("my name is" + " " + names + " " + "and my age is" + " " + age)
 
 
 
+                                                  // Qno:2  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function namess(firstname,lastname) {
+    const fullname= (firstname+lastname)
+console.log("salam"+" " +fullname);
+}
+const firstname= "feroz "
+const lastname= "A Habib"
+namess(firstname,lastname)
 
 
 
