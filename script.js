@@ -13,10 +13,10 @@
 
 
 
-let names = "feroz"
-let age = 20
-//  console.log("my name is" + " " + names +" " + "and my age is" +" " + age   )
-document.write("my name is" + " " + names + " " + "and my age is" + " " + age)
+// let names = "feroz"
+// let age = 20
+// //  console.log("my name is" + " " + names +" " + "and my age is" +" " + age   )
+// document.write("my name is" + " " + names + " " + "and my age is" + " " + age)
 
 
 
@@ -139,23 +139,38 @@ document.write("my name is" + " " + names + " " + "and my age is" + " " + age)
 
 
 
-                                                  // Qno:2  
+// Qno:2  
 
 
-function namess(firstname,lastname) {
-    const fullname= (firstname+lastname)
-console.log("salam"+" " +fullname);
+// function namess(firstname,lastname) {
+//     const fullname= (firstname+lastname)
+// console.log("salam"+" " +fullname);
+// }
+// const firstname= "feroz "
+// const lastname= "A Habib"
+// namess(firstname,lastname)
+
+
+const names = document.querySelector('#names')
+const h3 = document.querySelector("h3");
+
+function users() {
+    if (names.value == "") {
+
+        h3.innerHTML = "Bhai Name Daalo";
+
+    }
+    else {
+
+        console.log(names.value);
+        h3.innerHTML = "Hello " + names.value;
+        names.value = "";
+    }
 }
-const firstname= "feroz "
-const lastname= "A Habib"
-namess(firstname,lastname)
 
-
-
-
-
-
-
+function clears() {
+    h3.innerHTML = "";
+}
 
 
 
