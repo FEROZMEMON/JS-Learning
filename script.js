@@ -151,26 +151,26 @@
 // namess(firstname,lastname)
 
 
-const names = document.querySelector('#names')
-const h3 = document.querySelector("h3");
+// const names = document.querySelector('#names')
+// const h3 = document.querySelector("h3");
 
-function users() {
-    if (names.value == "") {
+// function users() {
+//     if (names.value == "") {
 
-        h3.innerHTML = "Bhai Name Daalo";
+//         h3.innerHTML = "Bhai Name Daalo";
 
-    }
-    else {
+//     }
+//     else {
 
-        console.log(names.value);
-        h3.innerHTML = "Hello " + names.value;
-        names.value = "";
-    }
-}
+//         console.log(names.value);
+//         h3.innerHTML = "Hello " + names.value;
+//         names.value = "";
+//     }
+// }
 
-function clears() {
-    h3.innerHTML = "";
-}
+// function clears() {
+//     h3.innerHTML = "";
+// }
 
 
 
