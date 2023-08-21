@@ -107,7 +107,7 @@
 //         console.log("else wala if")
 //     }
 //     else{
-//         console.log("else wala else")
+        // console.log("else wala else")
 //     }
 // }
 
@@ -171,6 +171,49 @@
 // function clears() {
 //     h3.innerHTML = "";
 // }
+
+
+
+
+// const feroz = document.querySelector(".first-head")
+// feroz.innerHTML = "OWAIS pagal hai"
+// console.log(feroz) 
+
+
+// function change_color() {
+//     const para = document.querySelector("#paragraph");
+//     if (para.style.backgroundColor == "black") {
+//         para.style.backgroundColor = "white";
+//         para.style.color = "black";
+//     }
+//     else {
+//         para.style.backgroundColor = "black";
+//         para.style.color = "white";
+    // }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
