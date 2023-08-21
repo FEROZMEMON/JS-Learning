@@ -57,12 +57,12 @@
 
 
 // function changebtncolor() {
-    
+
 //     let div = document.querySelector("#mydiv")
 // if (div.style.backgroundColor = "white") {
 
 //     div.style.backgroundColor = "blue"
-    
+
 // }
 // else {
 
@@ -77,11 +77,65 @@
 
 // TASK 03: Showing Hidden Text
 
-function btn() {
+// function btn() {
 
-    const text = document.querySelector("#hiddentext")
-    hiddentext.style.display = "block"
-}
+//     const text = document.querySelector("#hiddentext")
+//     hiddentext.style.display = "block"
+// }
+
+
+
+
+// learning Array
+// let topper = ['haseeb', 'owais', 'feroz', 'Husain']
+
+// fruit.push('Huzaifa');
+
+// fruit.pop();
+
+// fruit.unshift('abdullah');
+// fruit.shift();
+// let hazam = fruit.slice(1, 2);
+// fruit.splice(1, 2, 'allamaiqbal')
+// console.log(fruit);
+
+
+
+
+// let names = ["Feroz", "Javed", "Moin", "Saddam", "Bilal"]
+// names.splice(2, 3, "shakeel");
+// console.log(names);
+
+
+// let names = 'my name is feroze khan and my age is 200'
+// let newArr = names.split(' ');
+// newArr[3] = 'Haseeb'
+// console.log(newArr);
+// let newStr = newArr.join(' ')
+// console.log(newStr);
+
+
+
+// let array1 = [1,2,3]
+// let array2 = [4,5,6]
+
+// let newarr = array1.concat(array2)
+// console.log (newarr)
+
+// newarr.reverse()
+// console.log(newarr);
+
+
+let Array = [4,3,2,5,1]
+// Array.sort()
+// console.log(Array);
+
+let indexNumber = Array.indexOf(1)
+console.log(indexNumber);
+
+
+
+
 
 
 
