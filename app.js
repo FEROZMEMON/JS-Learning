@@ -126,12 +126,141 @@
 // console.log(newarr);
 
 
-let Array = [4,3,2,5,1]
-// Array.sort()
-// console.log(Array);
+// let Array = [4,3,2,5,1]
+// //Array.sort()
+// // console.log(Array);
 
-let indexNumber = Array.indexOf(1)
-console.log(indexNumber);
+// let indexNumber = Array.indexOf(1)
+// console.log(indexNumber);
+
+
+
+// let fruits = ["apple","mango","banana","peach","lychee" ,"grapes"]
+
+// fruits.push("anar")
+// fruits.pop()
+// fruits.unshift("anar")
+// fruits.shift()
+// let eaten = fruits.slice(1, 4)
+// console.log(eaten);
+// fruits.splice(1,3 , "star" ,"kiwi")
+// let a = fruits.join(" ")
+// let names = "my name is feroz and my age is 20"
+//  let a = names.split(" ");
+// console.log(a);
+
+
+// let array1 = [1,2,3]
+// let array2 = [4,5,6]
+
+
+// let newArr = array1.concat(array2)
+//  newArr.reverse()
+//  newArr.sort() 
+//  let a = newArr.indexOf(4)
+// console.log(a);
+
+
+
+
+
+
+
+
+
+
+// task of Array
+
+// let studentNames = ["Alice", "Bob", "Charlie", "David", "Eve"]
+// console.log(studentNames);
+
+
+
+// let index = studentNames.indexOf("Charlie" )
+
+// if (index !== -1) {
+//     studentNames.splice(index +1,0,"frank")
+// }
+
+// console.log(studentNames);
+
+// studentNames.splice(4,1)
+// console.log(studentNames);
+
+// studentNames.push("Grace" ,"Helen")
+// console.log(studentNames);
+
+// studentNames.splice(1,1,"John")
+// console.log(studentNames);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
